@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularz</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 135%;
+            background-size: cover;
+            background-color: #0051ffb3;
+            background-image: url(tlo.jpg);
+            opacity: 50%;
+
+        }
+
+        form {
+            
+            padding: 5%;
+            position: relative;
+        }
+
+        #formularz {
+            text-align: center;
+            position: relative;
+            background-color: #ffffff;
+        }
+
+        label {
+            background-color: rgb(192, 228, 255);
+        }
+
+        input,
+        select,
+        textarea {
+            background-color: #ddf0ff;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="formularz">
+        <form>
+            <label for="imie">Name: </label><br>
+            <input type="text" id="imie" name="imie"><br><br>
+            <label for="meil">E-mail: </label><br>
+            <input type="email" id="meil" name="meil"><br><br>
+            <label for="ilosc">Ilosc: </label><br>
+            <input type="number" id="ilosc" name="ilosc"><br><br>
+            <label for="wybor">Wybor: </label><br>
+            <select name="wybor" id="wybor">
+                <option value="lorem1">Lorem.</option>
+                <option value="lorem2">Lorem.</option>
+                <option value="lorem3">Lorem.</option>
+                <option value="lorem4">Lorem.</option>
+            </select><br><br>
+            <label for="dodInf">Podaj dodatkowa informacja</label><br>
+            <textarea id="dodInf" name="dodInf">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem temporibus nesciunt quasi perferendis saepe veniam alias harum ab eius nulla.
+            </textarea>
+        </form>
+        <a href="annaosiichuk (1).html">Powrot do strony glownej:</a>
+    </div>
+</body>
+
+</html>
